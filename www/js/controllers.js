@@ -33,6 +33,18 @@ angular.module('starter.controllers', [])
     }
   }
 
+  $scope.listOfDevices = [
+    {
+      src: 'img/iOT-Device-1.jpg',
+      label: 'Something'
+    },{
+      src: 'img/iOT-Device-2.jpg',
+      label: 'Education'
+    },{
+      src: 'img/iOT-Device-3.jpg',
+      label: 'Other Stuff'
+  }]
+
 })
 
 .controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
