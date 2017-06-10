@@ -77,6 +77,16 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
         controller: 'AccountCtrl'
       }
     }
+  })
+
+  .state('tab.temperature', {
+    url: '/temperature',
+    views: {
+      'tab-temperature': {
+        templateUrl: 'pages/temperature/temperature.html',
+        controller: 'TemperatureCtrl'
+      }
+    }
   });
 
   // if none of the above states are matched, use this as the fallback
