@@ -1,0 +1,42 @@
+#profileTabs{
+
+	padding: 20px 10px;
+}
+
+.wide-as-needed {
+  overflow: scroll;
+  white-space: nowrap;
+}
+.scroll { 
+  min-width: 100%;
+}
+.profileMenuButton {
+
+	background-color: #fff;
+	border: none;
+}
+.ngSwitchProfileCon{
+
+	margin-top: 10px;
+}
+bar.bar-custom, bar.bar-custom .bar.bar-positive, .bar-custom .nav-bar-block ion-header-bar {
+		border-color: #FF7148;
+		background-color: #FF7148;
+		background-image: linear-gradient(0deg, #FF7148, #FF7148 50%, transparent 50%);
+	}
+
+.myUploadChoicePopup .popup{
+
+	width: 80%;
+}
+
+
+.tt-dataset{
+
+	background-color: #000;
+    color: #fff;
+}
+
+.tt-dataset h5{
+color:#fff;
+}
