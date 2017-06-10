@@ -1,13 +1,13 @@
 <ion-view view-title="Conditions">
-  <ion-content class="padding">
+  <ion-content class="padding" style="padding: 0">
     <div class="list card" ng-repeat = "pictures in listOfDevices">
       <div class="item item-avatar">
         <img ng-src="{{pictures.src}}">
-        <h2>Pretty Hate Machine</h2>
+        <h2>{{pictures.label}}</h2>
         <p>Nine Inch Nails</p>
       </div>
       <div class="item item-image">
-        <img src="cover.jpg">
+        <img ng-src="{{pictures.src}}">
       </div>
     </div>
   </ion-content>

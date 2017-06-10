@@ -1,1 +1,25 @@
 /* Empty. Add your own CSS if you like */
+
+.chart-bar {
+  margin-top: 12vh
+}
+
+.change-temp {
+  margin: auto;
+  width: 65%;
+  margin-left: 8.5vh;
+  background-color: blue;
+  color: white;
+}
+
+.click-me {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
+
+.dont-click-me {
+  background-color: gray;
+  color: black;
+  border-radius: 5px;
+}
